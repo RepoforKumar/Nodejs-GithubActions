@@ -15,7 +15,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: my-file
-          path: /myfiles/file1
+          path: myfiles/file1
   downloadfile:
     needs: uploadfile
     runs-on: ubuntu-latest
