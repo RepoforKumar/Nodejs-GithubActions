@@ -10,7 +10,7 @@ jobs:
       - name: create a directory
         run: mkdir myfiles
       - name: create a file in the directory
-        run: echo "Hello World" > /myfiles/file1
+        run: echo "Hello World" > myfiles/file1
       - name: upload file to github
         uses: actions/upload-artifact@v4
         with:
