@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: create a directory
-        run: mkfir myfiles
+        run: mkdir myfiles
       - name: create a file in the directory
         run: echo "Hello World" > /myfiles/file1
       - name: upload file to github
